@@ -58,7 +58,7 @@
                         Kami memiliki ratusan mitra produsen dan pengepul sampah yang
                         terintegrasi dengan stok/persediaan terbesar di Indonesia
                     </p>
-                    <div class="w-80 h-48 lg:w-[500px] lg:h-96">
+                    <div class="w-50 h-48 lg:w-[500px] lg:h-96">
                         <img data-aos="zoom-in-out" data-aos-once="true" data-aos-duration="1000"
                             src="@/assets/img/pituku-thumbnail.png" alt="pituku-thumb" loading="eager" />
                     </div>

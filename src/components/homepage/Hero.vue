@@ -1,28 +1,30 @@
 <template>
     <section class="w-full">
-        <div class="container max-w-6xl mx-auto px-4 py-8">
+        <div class="container max-w-6xl mx-auto px-[16px] py-[32px]">
             <div className="hero-slider">
                 <Swiper :modules="modules" :pagination="{ clickable: true }"
                     :thumbs="{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }">
                     <SwiperSlide>
                         <div class="flex flex-col items-center lg:flex-row">
-                            <div class="w-full mb-8 lg:w-5/12">
-                                <h2 class="mb-4 text-2xl font-medium text-black text-center lg:text-left lg:text-3xl">
+                            <div class="w-full mb-[34px] lg:w-5/12">
+                                <h2
+                                    class="mb-[16px] text-2xl font-medium text-black text-center lg:text-left lg:text-3xl">
                                     Pituku: Jual Beli Sampah Mudah dan Terpercaya
                                 </h2>
-                                <p class="mb-8 text-base font-normal text-gray-400 text-center lg:text-lg lg:text-left">
+                                <p
+                                    class="mb-[32px] text-base font-normal text-gray-400 text-center lg:text-lg lg:text-left">
                                     Platform Pituku memudahkan transaksi jual beli sampah dan
                                     limbah berkualitas dengan harga terbaik, transparan, dan
                                     terpercaya.
                                 </p>
                                 <button
-                                    class="px-4 py-2 w-full text-lg font-normal text-green-600 border-2 border-green-600 rounded-md hover:bg-green-50 lg:w-auto">
+                                    class="px-[16px] py-[8px] w-full text-lg font-normal text-green-600 border-2 border-green-600 rounded-md hover:bg-green-50 lg:w-auto">
                                     PESAN SEKARANG
                                 </button>
                             </div>
-                            <div class="w-full mb-8 lg:w-7/12">
+                            <div class="w-full mb-[32px] lg:w-7/12">
                                 <div class="flex justify-center">
-                                    <div class="h-80 lg:h-64">
+                                    <div class="h-[320px] lg:h-64">
                                         <img src="@/assets/hero/banner-1.png" alt="" class="h-full" />
                                     </div>
                                 </div>
@@ -31,18 +33,19 @@
                     </SwiperSlide>
                     <SwiperSlide>
                         <div class=" flex flex-col items-center lg:flex-row">
-                            <div class="w-full mb-8 order-2 lg:w-7/12 lg:order-1">
+                            <div class="w-full mb-[32px] order-2 lg:w-7/12 lg:order-1">
                                 <div class="flex justify-center">
-                                    <div class="h-80 lg:h-64">
+                                    <div class="h-[320px] lg:h-64">
                                         <img src="@/assets/hero/banner-2.png" alt="" class="h-full" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full mb-8 order-1 lg:w-5/12 lg:order-2">
+                            <div class="w-full mb-[32px] order-1 lg:w-5/12 lg:order-2">
                                 <h2 class="mb-4 text-2xl font-medium text-black text-center lg:text-left lg:text-3xl">
                                     Gabung menjadi Agen Penjualan Produk Pituku
                                 </h2>
-                                <p class="mb-8 text-base font-normal text-gray-400 text-center lg:text-lg lg:text-left">
+                                <p
+                                    class="mb-[32px] text-base font-normal text-gray-400 text-center lg:text-lg lg:text-left">
                                     Dapatkan keuntungan hingga Rp 10 juta/bulan dengan bergabung
                                     menjadi agen penjual produk ramah lingkungan Pituku
                                 </p>
@@ -64,11 +67,11 @@
                                 seperti furnitur dan kemasan daur ulang.
                             </p>
                             <button
-                                class="mb-8 w-full px-4 py-2 text-lg font-normal text-white border-2 bg-green-600 border-green-600 rounded-md hover:opacity-75 lg:w-auto">
+                                class="mb-[32px] w-full px-4 py-2 text-lg font-normal text-white border-2 bg-green-600 border-green-600 rounded-md hover:opacity-75 lg:w-auto">
                                 MULAI SEKARANG
                             </button>
                             <div class="flex justify-center">
-                                <div class="h-80 lg:h-48">
+                                <div class="h-[320px] lg:h-48">
                                     <img src="@/assets/hero/banner-3.png" alt="" class="h-full object-cover" />
                                 </div>
                             </div>
